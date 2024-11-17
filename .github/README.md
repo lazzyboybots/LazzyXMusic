@@ -1,3 +1,2 @@
-# Lazzy-X
+# ʟᴀᴢᴢʏ ダ ᴍᴜꜱɪᴄ
 This is the Fast⚡Telegram Vc Music Bot ✨
-https://envs.sh/5Fy.jpg
