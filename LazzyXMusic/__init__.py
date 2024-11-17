@@ -1,4 +1,4 @@
-from LazzyXMusic import Anony
+from LazzyXMusic import Lazzy
 from LazzyXMusic.core.dir import dirr
 from LazzyXMusic.core.git import git
 from LazzyXMusic.core.userbot import Userbot
