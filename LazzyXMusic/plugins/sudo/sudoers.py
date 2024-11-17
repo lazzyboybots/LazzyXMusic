@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import add_sudo, remove_sudo
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.extraction import extract_user
-from AnonXMusic.utils.inline import close_markup
+from LazzyXMusic import app
+from LazzyXMusic.misc import SUDOERS
+from LazzyXMusic.utils.database import add_sudo, remove_sudo
+from LazzyXMusic.utils.decorators.language import language
+from LazzyXMusic.utils.extraction import extract_user
+from LazzyXMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
