@@ -1,5 +1,5 @@
 # ʟᴀᴢᴢʏ ダ ᴍᴜꜱɪᴄ
-This is the Fast⚡Telegram Vc Music Bot ✨
+This is the Fast⚡Telegram Vc Music Bot ✨ Telegram Group Calls Streaming bot with some useful features, written in Python with Pyrogram and Py-Tgcalls. Supporting. 
 
 ![image alt](https://github.com/lazzyboybots/LazzyXMusic/blob/ef249b2d8bd4ed533201c3f83e523cd85e285de8/375542.jpg?raw=true) 
 
