@@ -6,7 +6,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from LazzyXMusic import LOGGER, app, userbot
-from LazzyXMusic.core.call import Anony
+from LazzyXMusic.core.call import Lazzy
 from LazzyXMusic.misc import sudo
 from LazzyXMusic.plugins import ALL_MODULES
 from LazzyXMusic.utils.database import get_banned_users, get_gbanned
