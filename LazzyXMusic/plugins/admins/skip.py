@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from AnonXMusic import YouTube, app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.misc import db
-from AnonXMusic.utils.database import get_loop
-from AnonXMusic.utils.decorators import AdminRightsCheck
-from AnonXMusic.utils.inline import close_markup, stream_markup
-from AnonXMusic.utils.stream.autoclear import auto_clean
-from AnonXMusic.utils.thumbnails import get_thumb
+from LazzyXMusic import YouTube, app
+from LazzyXMusic.core.call import Lazzy
+from LazzyXMusic.misc import db
+from LazzyXMusic.utils.database import get_loop
+from LazzyXMusic.utils.decorators import AdminRightsCheck
+from LazzyXMusic.utils.inline import close_markup, stream_markup
+from LazzyXMusic.utils.stream.autoclear import auto_clean
+from LazzyXMusic.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
@@ -186,7 +186,7 @@ async def skip(cli, message: Message, _, chat_id):
             except:
                 image = None
         try:
-            await Anony.skip_stream(chat_id, queued, video=status, image=image)
+            await Lazzy.skip_stream(chat_id, queued, video=status, image=image)
         except:
             return await message.reply_text(_["call_6"])
         if videoid == "telegram":
