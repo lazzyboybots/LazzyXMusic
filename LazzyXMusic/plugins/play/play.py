@@ -7,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from LazzyXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from LazzyXMusic.core.call import Anony
+from LazzyXMusic.core.call import Lazzy
 from LazzyXMusic.utils import seconds_to_min, time_to_seconds
 from LazzyXMusic.utils.channelplay import get_channeplayCB
 from LazzyXMusic.utils.decorators.language import languageCB
