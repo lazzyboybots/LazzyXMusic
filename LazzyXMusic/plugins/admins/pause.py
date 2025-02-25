@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from LazzyX import app
-from LazzyX.core.call import LazzyX
+from LazzyX.core.call import Lazzy
 from LazzyX.utils.database import is_music_playing, music_off
 from LazzyX.utils.decorators import AdminRightsCheck
 from LazzyX.utils.inline import close_markup
