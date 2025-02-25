@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from LazzyXMusic import app
-from LazzyXMusic.core.call import Lazzy
-from LazzyXMusic.utils.database import is_music_playing, music_off
-from LazzyXMusic.utils.decorators import AdminRightsCheck
-from LazzyXMusic.utils.inline import close_markup
+from LazzyX import app
+from LazzyX.core.call import LazzyX
+from LazzyX.utils.database import is_music_playing, music_off
+from LazzyX.utils.decorators import AdminRightsCheck
+from LazzyX.utils.inline import close_markup
 from config import BANNED_USERS
 
 
