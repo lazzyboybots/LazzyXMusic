@@ -4,7 +4,7 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from LazzyX import YouTube, app
-from LazzyX.core.call import LazzyX
+from LazzyX.core.call import Lazzy
 from LazzyX.misc import SUDOERS, db
 from LazzyX.utils.database import (
     get_active_chats,
