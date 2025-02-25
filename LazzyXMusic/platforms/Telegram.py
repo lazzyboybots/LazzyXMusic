@@ -6,8 +6,8 @@ from typing import Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from LazzyXMusic import app
-from LazzyXMusic.utils.formatters import (
+from LazzyX import app
+from LazzyX.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,
