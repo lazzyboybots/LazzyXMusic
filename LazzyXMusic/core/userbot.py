@@ -51,7 +51,7 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("LazzyXMusic")
+                await self.one.join_chat("LazzyX")
                 await self.one.join_chat("Lazzy_Bots_Support")
             except:
                 pass
@@ -72,7 +72,7 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("LazzyXMusic")
+                await self.two.join_chat("LazzyX")
                 await self.two.join_chat("Lazzy_Bots_Support")
             except:
                 pass
@@ -93,7 +93,7 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("LazzyXMusic")
+                await self.three.join_chat("LazzyX")
                 await self.three.join_chat("Lazzy_Bots_Support")
             except:
                 pass
@@ -114,7 +114,7 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("LazzyXMusic")
+                await self.four.join_chat("LazzyX")
                 await self.four.join_chat("Lazzy_Bots_Support")
             except:
                 pass
@@ -135,7 +135,7 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("LazzyXMusic")
+                await self.five.join_chat("LazzyX")
                 await self.five.join_chat("Lazzy_Bots_Support")
             except:
                 pass
