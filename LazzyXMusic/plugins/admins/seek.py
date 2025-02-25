@@ -2,7 +2,7 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from LazzyX import YouTube, app
-from LazzyX.core.call import LazzyX
+from LazzyX.core.call import Lazzy
 from LazzyX.misc import db
 from LazzyX.utils import AdminRightsCheck, seconds_to_min
 from LazzyX.utils.inline import close_markup
