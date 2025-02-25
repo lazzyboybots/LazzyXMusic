@@ -8,8 +8,8 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from youtubesearchpython.__future__ import VideosSearch
 
-from LazzyXMusic.utils.database import is_on_off
-from LazzyXMusic.utils.formatters import time_to_seconds
+from LazzyX.utils.database import is_on_off
+from LazzyX.utils.formatters import time_to_seconds
 
 
 async def shell_cmd(cmd):
