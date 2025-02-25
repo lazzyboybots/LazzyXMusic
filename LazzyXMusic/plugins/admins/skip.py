@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from LazzyXMusic import YouTube, app
-from LazzyXMusic.core.call import Lazzy
-from LazzyXMusic.misc import db
-from LazzyXMusic.utils.database import get_loop
-from LazzyXMusic.utils.decorators import AdminRightsCheck
-from LazzyXMusic.utils.inline import close_markup, stream_markup
-from LazzyXMusic.utils.stream.autoclear import auto_clean
-from LazzyXMusic.utils.thumbnails import get_thumb
+from LazzyX import YouTube, app
+from LazzyX.core.call import Lazzy
+from LazzyX.misc import db
+from LazzyX.utils.database import get_loop
+from LazzyX.utils.decorators import AdminRightsCheck
+from LazzyX.utils.inline import close_markup, stream_markup
+from LazzyX.utils.stream.autoclear import auto_clean
+from LazzyX.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
